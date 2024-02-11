@@ -1,0 +1,13 @@
+Gates are automated process for approval
+
+1. Edit prev release pipeline
+2. Edit Production stage and add predeployment condition (Mouse hover on the Prod stage)
+3. Turn On Gates and add a Deployment Gate -> Enable "Query work Items"
+4. Create and run Query in Work Items - Boards\Queries\Create\Work Item Type=Issue and Status <> Done
+5. Save query as Shared Query. Name - Active Bugs
+6. Chose the query in Pipeline. Upper threashhold -> 0 for no active bugs. Also set other values for 2-3 min reattempt
+7. Save and "Create Release"
+8. Edit source code and Commit
+9. Wait for another release and you need to give approval
+10. Can mouse hover on the stage and click Logs
+11. Resolve bugs and then check again if build is success or not.
