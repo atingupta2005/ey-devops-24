@@ -7,6 +7,7 @@ sudo sh install-docker.sh
 
 ```
 sudo usermod -aG docker $USER
+exit
 ```
 
 ```
