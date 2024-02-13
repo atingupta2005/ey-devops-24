@@ -1,13 +1,13 @@
 # Self Hosted Agent Pool
 ```
-cd ~
-curl -fsSL https://get.docker.com -o install-docker.sh
-sudo sh install-docker.sh
+#cd ~
+#curl -fsSL https://get.docker.com -o install-docker.sh
+#sudo sh install-docker.sh
 ```
 
 ```
-sudo usermod -aG docker $USER
-exit
+#sudo usermod -aG docker $USER
+#exit
 ```
 
 ```
