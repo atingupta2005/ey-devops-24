@@ -21,8 +21,8 @@ done
 -  Clone Git Repo
 ```
 cd
-git clone https://github.com/atingupta2005/Bosch-Azure-Devops-Feb-23.git
-cd Bosch-Azure-Devops-Feb-23
+
+
 ```
 
 - Customize linux prompt
