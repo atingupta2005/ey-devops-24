@@ -1,15 +1,10 @@
-# Setup Docker
-sudo apt-get remove -y docker docker-ce-cli docker-ce docker-engine docker.io containerd runc
-curl -fsSL get.docker.com -o get-docker.sh
-sh get-docker.sh
-sudo usermod -aG docker $USER
+# Setup Docker - Not required
+#sudo apt-get remove -y docker docker-ce-cli docker-ce docker-engine docker.io containerd runc
+#curl -fsSL get.docker.com -o get-docker.sh
+#sh get-docker.sh
+#sudo usermod -aG docker $USER
 
-ls
-
-# Now should logout and login again
-docker version
-
-USER_SUFFIX=50
+USER_SUFFIX=$(echo "$USER" | cut -c 2-5)
 echo $USER_SUFFIX
 
 # Creating and Using Containers
