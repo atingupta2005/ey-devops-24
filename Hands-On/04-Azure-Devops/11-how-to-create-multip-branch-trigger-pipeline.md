@@ -1,5 +1,5 @@
 # Hoe to create multi branch trigger pipeline
-- Create create the pipeline yml files for each branch in the git repo master branch
+- Create the pipeline yml files for each branch in the git repo master branch
 - Create a new branches based on the master branch. These branch names should match with the names mentioned in the trigger settings of the yml file created in last step.
 - Now create a pipeline and select - chose ecisting pipeline option.
 - Mention the branch name for which we need to create the pipeline
